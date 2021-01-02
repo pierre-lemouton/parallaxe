@@ -54,6 +54,6 @@ p
 
 .cadre:hover p
 {
-    transform: translateZ(50px);
+    transform: translateZ(40px);
     font-size: 1em;
 }
