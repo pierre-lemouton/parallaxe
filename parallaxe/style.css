@@ -2,7 +2,7 @@
 
 body
 {
-    height: 100vh;
+    height: 98vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@ p
     right: 16px;
 }
 
-img
+.selfie
 {
     border-radius: 200px;
     transition: .5s;
