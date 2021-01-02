@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+}
+
+
+
+.cadre
+{
+    height: 396px;
+    width: 375px;
+    border-radius: 200px;
+    background: linear-gradient(70deg, #12c2e9, #c471ed, #f64f59);
+    box-shadow: 20px 20px 5px #101010;
+    transform-style: preserve-3d;
+}
+
+p
+{
+    position: absolute;
+    top: 198px;
+    font-family: 'Goldman', cursive;
+    font-weight: 700;
+    font-size: .9em;
+    transition: .5s;
+}
+
+.prenom
+{
+    left: 40px;
+}
+
+.nom
+{
+    right: 16px;
+}
+
+img
+{
+    border-radius: 200px;
+    transition: .5s;
+}
+
+.cadre:hover img
+{
+    transform: translateZ(100px);
+}
+
+.cadre:hover p
+{
+    transform: translateZ(50px);
+    font-size: 1em;
+}
